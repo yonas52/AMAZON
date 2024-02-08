@@ -1,10 +1,14 @@
-
-import './App.css';
+import "./App.css";
+import Header from "./Components/Header/Header";
+import CarouselEffect from "./Components/Carousel/CarouselEffect";
+import CatagoryCard from "./Components/Carousel/Category/CatagoryCard";
+import Catagory from "./Components/Carousel/Category/Catagory";
+import Routing from "./Router";
 
 function App() {
   return (
-    <div >
-   <h1>amazone clone</h1>
+    <div>
+      <Routing />
     </div>
   );
 }

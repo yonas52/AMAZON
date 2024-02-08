@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.fixed {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header_container {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 10px;
+  align-items: center;
+  height: 70px;
+  background-color: #131921;
+  /* padding: 20px ; */
+  color: white;
+}
+
+/* .header_container img {
+    height: 50px; 
+  } */
+.logo_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 250px;
+}
+.logo_container img {
+  width: 80%;
+  padding-top: 30px;
+  margin-left: 20px;
+  /* vertical-align: middle; */
+  justify-content: center;
+}
+.delivary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.delivary p {
+  font-size: 18px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  flex: 1;
+}
+.search select {
+  padding: 12px;
+}
+.search input {
+  padding: 11px;
+  font-weight: bold;
+  outline: 1px solid white;
+}
+.search select {
+  border: none;
+}
+.search input {
+  border: 1px solid white;
+  width: 100%;
+  margin-right: -2px;
+}
+.search svg {
+  padding: 11px;
+  background: #febd69;
+  color: #1a1a1a;
+}
+.search svg :hover {
+  background-color: #d49644;
+}
+.search :focus-within {
+  border: 2px solid rgb(235, 161, 173);
+}
+
+.order_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  gap: 10px;
+}
+.order_container a {
+  text-decoration: none;
+  color: white;
+}
+.order_container p {
+  font-size: 20px;
+}
+
+.language {
+  width: 100px;
+  display: flex;
+  padding: 10px;
+}
+.language select {
+  background-color: #1a1a1a;
+  border: none;
+  color: white;
+}
+.language img {
+  width: 40%;
+}
+.order_container span {
+  font-size: 20px;
+}
+.cart {
+  position: relative;
+}
+.cart span {
+  position: absolute;
+  font-weight: bold;
+  top: 0px;
+  font-size: 20px;
+  background-color: #1a1a1a;
+  left: 16px;
+  color: orange;
+}
+
+.header_container a {
+  text-decoration: none;
+  color: inherit;
+  transition: border 0.3s;
+}
+
+/* Apply border styles when hovering over the anchor tags */
+.header_container a:hover {
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.delivary :hover {
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 5px;
+}
+.delivary:hover p,
+.delivary:hover span {
+  border: none;
+}
+
+.Lower_container {
+  background-color: #232f3e;
+  color: white;
+}
+.Lower_container ul {
+  display: flex;
+  list-style: none;
+  gap: 5px;
+}
+.Lower_container ul li {
+  padding: 8px;
+}
+.Lower_container ul li {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .header_container {
+    display: flex;
+    flex-direction: column !important;
+    height: auto;
+  }
+
+  .Lower_container ul li:not(:first-child) {
+    display: none;
+  }
+
+  .language {
+    display: none;
+  }
+}

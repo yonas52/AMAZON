@@ -71,12 +71,16 @@
   width: 100%;
   margin-right: -2px;
 }
-.search svg {
+.search div{
   padding: 11px;
   background: #febd69;
   color: #1a1a1a;
 }
-.search svg :hover {
+  .search svg {
+  width: auto; 
+  height: auto;
+}  
+.search svg:hover {
   background-color: #d49644;
 }
 .search :focus-within {
@@ -95,7 +99,7 @@
   color: white;
 }
 .order_container p {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .language {

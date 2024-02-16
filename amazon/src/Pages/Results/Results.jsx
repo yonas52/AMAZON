@@ -31,7 +31,7 @@ function Results() {
       });
   }, []);
 
-  console.log(Results);
+  // console.log(Results);
 
   return (
     <Layout>

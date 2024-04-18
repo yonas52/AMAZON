@@ -11,6 +11,7 @@ function ProductDetail() {
   const { productId } = useParams();
   const [product, setproduct] = useState({});
   const [Isloading, SetIsloading] = useState(true);
+  
   useEffect(() => {
     SetIsloading(true);
     axios

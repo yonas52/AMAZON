@@ -12,6 +12,7 @@ import { DataContext } from "../../Components/DataProvider/DataProvider";
 import { type } from "../../Utility/action.type";
 import { ClipLoader } from "react-spinners";
 
+
 function Auth() {
   const [Email, setEmail] = useState("");
   const [Password, setPassword] = useState("");

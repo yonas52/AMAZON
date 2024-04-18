@@ -1,0 +1,334 @@
+[debug] [2024-02-17T15:23:55.327Z] ----------------------------------------------------------------------
+[debug] [2024-02-17T15:23:55.330Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Home\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2024-02-17T15:23:55.330Z] CLI Version:   13.2.1
+[debug] [2024-02-17T15:23:55.330Z] Platform:      win32
+[debug] [2024-02-17T15:23:55.331Z] Node Version:  v20.10.0
+[debug] [2024-02-17T15:23:55.331Z] Time:          Sat Feb 17 2024 10:23:55 GMT-0500 (Eastern Standard Time)
+[debug] [2024-02-17T15:23:55.331Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-17T15:23:55.473Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-17T15:23:55.474Z] > authorizing via signed-in user (yonasabeje5@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2024-02-17T15:23:55.486Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-02-17T15:23:55.486Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-02-17T15:23:55.503Z] [hub] writing locator at C:\Users\Home\AppData\Local\Temp\hub-clone-3245d.json
+[debug] [2024-02-17T15:23:55.528Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-02-17T15:23:55.528Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-02-17T15:23:55.528Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[debug] [2024-02-17T15:23:55.532Z] defaultcredentials: writing to file C:\Users\Home\AppData\Roaming\firebase\yonasabeje5_gmail_com_application_default_credentials.json
+[debug] [2024-02-17T15:23:55.535Z] Setting GAC to C:\Users\Home\AppData\Roaming\firebase\yonasabeje5_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Home\\AppData\\Roaming\\firebase\\yonasabeje5_gmail_com_application_default_credentials.json"}}
+[debug] [2024-02-17T15:23:55.537Z] > refreshing access token with scopes: []
+[debug] [2024-02-17T15:23:55.539Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-02-17T15:23:55.539Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-17T15:23:56.213Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-02-17T15:23:56.213Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-17T15:23:56.222Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-3245d/adminSdkConfig [none]
+[debug] [2024-02-17T15:23:57.218Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-3245d/adminSdkConfig 200
+[debug] [2024-02-17T15:23:57.218Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-3245d/adminSdkConfig {"projectId":"clone-3245d","storageBucket":"clone-3245d.appspot.com"}
+[debug] [2024-02-17T15:23:57.238Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-02-17T15:23:57.238Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-02-17T15:23:57.238Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Home\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Home\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-02-17T15:23:57.397Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-02-17T15:23:57.397Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\" for Cloud Functions..."}}
+[debug] [2024-02-17T15:23:57.518Z] Validating nodejs source
+[debug] [2024-02-17T15:23:59.240Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.3",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.16.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-02-17T15:23:59.240Z] Building nodejs source
+[debug] [2024-02-17T15:23:59.240Z] Failed to find version of module node: reached end of search path C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2024-02-17T15:23:59.245Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-02-17T15:23:59.252Z] Found firebase-functions binary at 'C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8735
+
+[error] Error: Cannot find module 'lodash.includes'
+Require stack:
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\jsonwebtoken\sign.js
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\jsonwebtoken\index.js
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\firebase-admin\lib\utils\jwt.js
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\firebase-admin\lib\app-check\token-verifier.js
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\firebase-admin\lib\app-check\app-check.js
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\firebase-admin\lib\app-check\index.js
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\firebase-functions\lib\common\providers\https.js
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\firebase-functions\lib\v2\providers\https.js
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\index.js
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\firebase-functions\lib\runtime\loader.js
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\firebase-functions\lib\bin\firebase-functions.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\jsonwebtoken\sign.js:5:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\\node_modules\\jsonwebtoken\\sign.js',
+    'C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\\node_modules\\jsonwebtoken\\index.js',
+    'C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\\node_modules\\firebase-admin\\lib\\utils\\jwt.js',
+    'C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\\node_modules\\firebase-admin\\lib\\app-check\\token-verifier.js',
+    'C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\\node_modules\\firebase-admin\\lib\\app-check\\app-check.js',
+    'C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\\node_modules\\firebase-admin\\lib\\app-check\\index.js',
+    'C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\\node_modules\\firebase-functions\\lib\\common\\providers\\https.js',
+    'C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\providers\\https.js',
+    'C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\\index.js',
+    'C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\\node_modules\\firebase-functions\\lib\\runtime\\loader.js',
+    'C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\\node_modules\\firebase-functions\\lib\\bin\\firebase-functions.js'
+  ]
+}
+
+[debug] [2024-02-17T15:23:59.840Z] Got response code 400; body Failed to generate manifest from function source: Error: Cannot find module 'lodash.includes'
+Require stack:
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\jsonwebtoken\sign.js
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\jsonwebtoken\index.js
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\firebase-admin\lib\utils\jwt.js
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\firebase-admin\lib\app-check\token-verifier.js
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\firebase-admin\lib\app-check\app-check.js
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\firebase-admin\lib\app-check\index.js
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\firebase-functions\lib\common\providers\https.js
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\firebase-functions\lib\v2\providers\https.js
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\index.js
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\firebase-functions\lib\runtime\loader.js
+- C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\firebase-functions\lib\bin\firebase-functions.js
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-02-17T15:24:14.423Z] [work-queue] {"queuedWork":["/clone-3245d/us-central1/api/payment/create-2024-02-17T15:24:14.423Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-02-17T15:24:14.423Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-3245d/us-central1/api/payment/create-2024-02-17T15:24:14.423Z"],"workRunningCount":1}
+[debug] [2024-02-17T15:24:14.427Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-02-17T15:24:23.697Z] [work-queue] {"queuedWork":["/clone-3245d/us-central1/api/payment/create-2024-02-17T15:24:23.697Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-02-17T15:24:23.698Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-3245d/us-central1/api/payment/create-2024-02-17T15:24:23.697Z"],"workRunningCount":1}
+[debug] [2024-02-17T15:24:23.698Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-02-17T15:24:26.297Z] [work-queue] {"queuedWork":["/clone-3245d/us-central1/api/payment/create-2024-02-17T15:24:26.297Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-02-17T15:24:26.297Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-3245d/us-central1/api/payment/create-2024-02-17T15:24:26.297Z"],"workRunningCount":1}
+[debug] [2024-02-17T15:24:26.298Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-02-17T15:25:06.874Z] [work-queue] {"queuedWork":["/clone-3245d/us-central1/api/payment/create-2024-02-17T15:25:06.874Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-02-17T15:25:06.874Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-3245d/us-central1/api/payment/create-2024-02-17T15:25:06.874Z"],"workRunningCount":1}
+[debug] [2024-02-17T15:25:06.875Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-02-17T15:25:08.198Z] [work-queue] {"queuedWork":["/clone-3245d/us-central1/api/payment/create-2024-02-17T15:25:08.198Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-02-17T15:25:08.198Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-3245d/us-central1/api/payment/create-2024-02-17T15:25:08.198Z"],"workRunningCount":1}
+[debug] [2024-02-17T15:25:08.199Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-02-17T15:25:14.755Z] [work-queue] {"queuedWork":["/clone-3245d/us-central1/api/payment/create-2024-02-17T15:25:14.755Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-02-17T15:25:14.756Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-3245d/us-central1/api/payment/create-2024-02-17T15:25:14.755Z"],"workRunningCount":1}
+[debug] [2024-02-17T15:25:14.757Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-02-17T15:26:02.938Z] [work-queue] {"queuedWork":["/clone-3245d/us-central1/api/payment/create-2024-02-17T15:26:02.938Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-02-17T15:26:02.938Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-3245d/us-central1/api/payment/create-2024-02-17T15:26:02.938Z"],"workRunningCount":1}
+[debug] [2024-02-17T15:26:02.939Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-02-17T15:26:03.101Z] [work-queue] {"queuedWork":["/clone-3245d/us-central1/api/payment/create-2024-02-17T15:26:03.101Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-02-17T15:26:03.101Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-3245d/us-central1/api/payment/create-2024-02-17T15:26:03.101Z"],"workRunningCount":1}
+[debug] [2024-02-17T15:26:03.102Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-02-17T15:38:30.710Z] ----------------------------------------------------------------------
+[debug] [2024-02-17T15:38:30.713Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Home\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2024-02-17T15:38:30.713Z] CLI Version:   13.2.1
+[debug] [2024-02-17T15:38:30.714Z] Platform:      win32
+[debug] [2024-02-17T15:38:30.714Z] Node Version:  v20.10.0
+[debug] [2024-02-17T15:38:30.714Z] Time:          Sat Feb 17 2024 10:38:30 GMT-0500 (Eastern Standard Time)
+[debug] [2024-02-17T15:38:30.714Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-17T15:38:30.848Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-17T15:38:30.849Z] > authorizing via signed-in user (yonasabeje5@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2024-02-17T15:38:30.860Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4001 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4001 instead."}}
+[debug] [2024-02-17T15:38:30.862Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project clone-3245d. This may result in unexpected behavior. 
+[debug] [2024-02-17T15:38:30.878Z] [hub] writing locator at C:\Users\Home\AppData\Local\Temp\hub-clone-3245d.json
+[debug] [2024-02-17T15:38:30.901Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-02-17T15:38:30.901Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-02-17T15:38:30.901Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[debug] [2024-02-17T15:38:30.908Z] defaultcredentials: writing to file C:\Users\Home\AppData\Roaming\firebase\yonasabeje5_gmail_com_application_default_credentials.json
+[debug] [2024-02-17T15:38:30.913Z] Setting GAC to C:\Users\Home\AppData\Roaming\firebase\yonasabeje5_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Home\\AppData\\Roaming\\firebase\\yonasabeje5_gmail_com_application_default_credentials.json"}}
+[debug] [2024-02-17T15:38:30.916Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-3245d/adminSdkConfig [none]
+[debug] [2024-02-17T15:38:31.771Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-3245d/adminSdkConfig 200
+[debug] [2024-02-17T15:38:31.771Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-3245d/adminSdkConfig {"projectId":"clone-3245d","storageBucket":"clone-3245d.appspot.com"}
+[debug] [2024-02-17T15:38:31.798Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-02-17T15:38:31.798Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-02-17T15:38:31.798Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Home\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Home\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-02-17T15:38:31.947Z] Web / API server started at 127.0.0.1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4001\n"}}
+[debug] [2024-02-17T15:38:31.948Z] Web / API server started at ::1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4001\n"}}
+[info] i  functions: Watching "C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\" for Cloud Functions..."}}
+[debug] [2024-02-17T15:38:32.072Z] Validating nodejs source
+[debug] [2024-02-17T15:38:34.033Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.3",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.16.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-02-17T15:38:34.034Z] Building nodejs source
+[debug] [2024-02-17T15:38:34.034Z] Failed to find version of module node: reached end of search path C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2024-02-17T15:38:34.040Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-02-17T15:38:34.047Z] Found firebase-functions binary at 'C:\Users\Home\OneDrive\Desktop\Evangadi\Phase-4\Project-2\AMAZON\amazon\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8392
+
+[debug] [2024-02-17T15:38:34.924Z] Got response from /__/functions.yaml {"endpoints":{"api":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] +  functions[us-central1-api]: http function initialized (http://127.0.0.1:5001/clone-3245d/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/clone-3245d/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4001/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4001/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-02-17T15:39:04.359Z] [work-queue] {"queuedWork":["/clone-3245d/us-central1/api/payment/create-2024-02-17T15:39:04.359Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-02-17T15:39:04.359Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-3245d/us-central1/api/payment/create-2024-02-17T15:39:04.359Z"],"workRunningCount":1}
+[debug] [2024-02-17T15:39:04.360Z] Accepted request POST /clone-3245d/us-central1/api/payment/create?total=1599 --> us-central1-api
+[debug] [2024-02-17T15:39:04.362Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-02-17T15:39:04.363Z] [functions] Got req.url=/clone-3245d/us-central1/api/payment/create?total=1599, mapping to path=/payment/create?total=1599 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-3245d/us-central1/api/payment/create?total=1599, mapping to path=/payment/create?total=1599"}}
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2024-02-17T15:39:04.378Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2024-02-17T15:39:04.380Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2024-02-17T15:39:05.950Z] [runtime-status] [11420] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11420] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"C:\\\\Users\\\\Home\\\\OneDrive\\\\Desktop\\\\Evangadi\\\\Phase-4\\\\Project-2\\\\AMAZON\\\\amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2024-02-17T15:39:05.951Z] [runtime-status] [11420] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.7.0","resolution":"C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11420] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.7.0\",\"resolution\":\"C:\\\\Users\\\\Home\\\\OneDrive\\\\Desktop\\\\Evangadi\\\\Phase-4\\\\Project-2\\\\AMAZON\\\\amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2024-02-17T15:39:05.952Z] [runtime-status] [11420] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11420] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2024-02-17T15:39:05.955Z] [runtime-status] [11420] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.7.0","resolution":"C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11420] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.7.0\",\"resolution\":\"C:\\\\Users\\\\Home\\\\OneDrive\\\\Desktop\\\\Evangadi\\\\Phase-4\\\\Project-2\\\\AMAZON\\\\amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2024-02-17T15:39:06.354Z] [runtime-status] [11420] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11420] Checked functions.config() {\"config\":{}}"}}
+[debug] [2024-02-17T15:39:06.355Z] [runtime-status] [11420] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.7.0","resolution":"C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11420] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.7.0\",\"resolution\":\"C:\\\\Users\\\\Home\\\\OneDrive\\\\Desktop\\\\Evangadi\\\\Phase-4\\\\Project-2\\\\AMAZON\\\\amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2024-02-17T15:39:06.356Z] [runtime-status] [11420] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.7.0","resolution":"C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11420] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.7.0\",\"resolution\":\"C:\\\\Users\\\\Home\\\\OneDrive\\\\Desktop\\\\Evangadi\\\\Phase-4\\\\Project-2\\\\AMAZON\\\\amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2024-02-17T15:39:06.357Z] [runtime-status] [11420] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11420] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"C:\\\\Users\\\\Home\\\\OneDrive\\\\Desktop\\\\Evangadi\\\\Phase-4\\\\Project-2\\\\AMAZON\\\\amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2024-02-17T15:39:06.360Z] [runtime-status] [11420] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.7.0","resolution":"C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11420] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.7.0\",\"resolution\":\"C:\\\\Users\\\\Home\\\\OneDrive\\\\Desktop\\\\Evangadi\\\\Phase-4\\\\Project-2\\\\AMAZON\\\\amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2024-02-17T15:39:06.361Z] [runtime-status] [11420] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.1","resolution":"C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11420] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"C:\\\\Users\\\\Home\\\\OneDrive\\\\Desktop\\\\Evangadi\\\\Phase-4\\\\Project-2\\\\AMAZON\\\\amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2024-02-17T15:39:06.612Z] [runtime-status] [11420] Functions runtime initialized. {"cwd":"C:\\Users\\Home\\OneDrive\\Desktop\\Evangadi\\Phase-4\\Project-2\\AMAZON\\amazon\\functions","node_version":"20.10.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11420] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\Home\\\\OneDrive\\\\Desktop\\\\Evangadi\\\\Phase-4\\\\Project-2\\\\AMAZON\\\\amazon\\\\functions\",\"node_version\":\"20.10.0\"}"}}
+[debug] [2024-02-17T15:39:06.613Z] [runtime-status] [11420] Listening to port: \\?\pipe\fire_emu_4d075fc63f33bf8b {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11420] Listening to port: \\\\?\\pipe\\fire_emu_4d075fc63f33bf8b"}}
+[debug] [2024-02-17T15:39:06.690Z] [worker-us-central1-api-5036e914-7b2c-4bd1-8b56-5106e199ba36]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5036e914-7b2c-4bd1-8b56-5106e199ba36]: IDLE"}}
+[debug] [2024-02-17T15:39:06.690Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-02-17T15:39:06.691Z] [worker-us-central1-api-5036e914-7b2c-4bd1-8b56-5106e199ba36]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5036e914-7b2c-4bd1-8b56-5106e199ba36]: BUSY"}}
+[info] >  { {"user":"{","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m {"}}
+[info] >    id: 'pi_3Oko70Csjgf1J1Ax0lRbEjTz', {"user":"  id: 'pi_3Oko70Csjgf1J1Ax0lRbEjTz',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   id: 'pi_3Oko70Csjgf1J1Ax0lRbEjTz',"}}
+[info] >    object: 'payment_intent', {"user":"  object: 'payment_intent',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   object: 'payment_intent',"}}
+[info] >    amount: 1599, {"user":"  amount: 1599,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   amount: 1599,"}}
+[info] >    amount_capturable: 0, {"user":"  amount_capturable: 0,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   amount_capturable: 0,"}}
+[info] >    amount_details: { tip: {} }, {"user":"  amount_details: { tip: {} },","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   amount_details: { tip: {} },"}}
+[info] >    amount_received: 0, {"user":"  amount_received: 0,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   amount_received: 0,"}}
+[info] >    application: null, {"user":"  application: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   application: null,"}}
+[info] >    application_fee_amount: null, {"user":"  application_fee_amount: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   application_fee_amount: null,"}}
+[info] >    automatic_payment_methods: { allow_redirects: 'always', enabled: true }, {"user":"  automatic_payment_methods: { allow_redirects: 'always', enabled: true },","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   automatic_payment_methods: { allow_redirects: 'always', enabled: true },"}}
+[info] >    canceled_at: null, {"user":"  canceled_at: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   canceled_at: null,"}}
+[info] >    cancellation_reason: null, {"user":"  cancellation_reason: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   cancellation_reason: null,"}}
+[info] >    capture_method: 'automatic', {"user":"  capture_method: 'automatic',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   capture_method: 'automatic',"}}
+[info] >    client_secret: 'pi_3Oko70Csjgf1J1Ax0lRbEjTz_secret_PMyoCwOdgVGOQFNQy4c3DkNZc', {"user":"  client_secret: 'pi_3Oko70Csjgf1J1Ax0lRbEjTz_secret_PMyoCwOdgVGOQFNQy4c3DkNZc',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   client_secret: 'pi_3Oko70Csjgf1J1Ax0lRbEjTz_secret_PMyoCwOdgVGOQFNQy4c3DkNZc',"}}
+[info] >    confirmation_method: 'automatic', {"user":"  confirmation_method: 'automatic',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   confirmation_method: 'automatic',"}}
+[info] >    created: 1708177166, {"user":"  created: 1708177166,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   created: 1708177166,"}}
+[info] >    currency: 'usd', {"user":"  currency: 'usd',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   currency: 'usd',"}}
+[info] >    customer: null, {"user":"  customer: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   customer: null,"}}
+[info] >    description: null, {"user":"  description: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   description: null,"}}
+[info] >    invoice: null, {"user":"  invoice: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   invoice: null,"}}
+[info] >    last_payment_error: null, {"user":"  last_payment_error: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   last_payment_error: null,"}}
+[info] >    latest_charge: null, {"user":"  latest_charge: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   latest_charge: null,"}}
+[info] >    livemode: false, {"user":"  livemode: false,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   livemode: false,"}}
+[info] >    metadata: {}, {"user":"  metadata: {},","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   metadata: {},"}}
+[info] >    next_action: null, {"user":"  next_action: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   next_action: null,"}}
+[info] >    on_behalf_of: null, {"user":"  on_behalf_of: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   on_behalf_of: null,"}}
+[info] >    payment_method: null, {"user":"  payment_method: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   payment_method: null,"}}
+[info] >    payment_method_configuration_details: null, {"user":"  payment_method_configuration_details: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   payment_method_configuration_details: null,"}}
+[info] >    payment_method_options: { {"user":"  payment_method_options: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   payment_method_options: {"}}
+[info] >      card: { {"user":"    card: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     card: {"}}
+[info] >        installments: null, {"user":"      installments: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       installments: null,"}}
+[info] >        mandate_options: null, {"user":"      mandate_options: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       mandate_options: null,"}}
+[info] >        network: null, {"user":"      network: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       network: null,"}}
+[info] >        request_three_d_secure: 'automatic' {"user":"      request_three_d_secure: 'automatic'","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       request_three_d_secure: 'automatic'"}}
+[info] >      } {"user":"    }","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     }"}}
+[info] >    }, {"user":"  },","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   },"}}
+[info] >    payment_method_types: [ 'card' ], {"user":"  payment_method_types: [ 'card' ],","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   payment_method_types: [ 'card' ],"}}
+[info] >    processing: null, {"user":"  processing: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   processing: null,"}}
+[info] >    receipt_email: null, {"user":"  receipt_email: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   receipt_email: null,"}}
+[info] >    review: null, {"user":"  review: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   review: null,"}}
+[info] >    setup_future_usage: null, {"user":"  setup_future_usage: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   setup_future_usage: null,"}}
+[info] >    shipping: null, {"user":"  shipping: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   shipping: null,"}}
+[info] >    source: null, {"user":"  source: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   source: null,"}}
+[info] >    statement_descriptor: null, {"user":"  statement_descriptor: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   statement_descriptor: null,"}}
+[info] >    statement_descriptor_suffix: null, {"user":"  statement_descriptor_suffix: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   statement_descriptor_suffix: null,"}}
+[info] >    status: 'requires_payment_method', {"user":"  status: 'requires_payment_method',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   status: 'requires_payment_method',"}}
+[info] >    transfer_data: null, {"user":"  transfer_data: null,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   transfer_data: null,"}}
+[info] >    transfer_group: null {"user":"  transfer_group: null","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   transfer_group: null"}}
+[info] >  } {"user":"}","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m }"}}
+[debug] [2024-02-17T15:39:07.880Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 1188.9438ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 1188.9438ms"}}
+[debug] [2024-02-17T15:39:07.881Z] [worker-us-central1-api-5036e914-7b2c-4bd1-8b56-5106e199ba36]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5036e914-7b2c-4bd1-8b56-5106e199ba36]: IDLE"}}
+[debug] [2024-02-17T15:39:07.881Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-02-17T15:39:07.882Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-02-17T15:39:07.882Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}

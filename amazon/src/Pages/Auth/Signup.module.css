@@ -3,8 +3,7 @@
  display: flex;
  flex-direction:column;
  align-items:center;
-    
-  }
+ }
 .login img{
 margin:30px auto;
 object-fit:contain;
@@ -16,7 +15,7 @@ display:flex;
 flex-direction:column;
 /* border: 2px solid #FF8080; */
 border: 1px #ddd solid;
-border-radius: 5px; /* Adjust the value to change the curve radius */
+border-radius: 5px; 
 padding: 20px;
 }
 .login_container h1{

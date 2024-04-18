@@ -15,7 +15,7 @@ import { type } from "../../Utility/action.type";
 
 function Payment() {
   const [{ basket, user }, dispatch] = useContext(DataContext);
-  console.log(user);
+  // console.log(user);
   const totalItem = basket?.reduce((amount, item) => {
     return item.amount + amount;
   }, 0);
@@ -145,3 +145,9 @@ function Payment() {
 }
 
 export default Payment;
+
+
+
+
+
+
